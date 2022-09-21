@@ -1,1 +1,24 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: green;
+}
+#card-shape {
+  width: 500px;
+  height: 600px;
+  margin: 2rem;
+  display: inline-block;
+  position: relative;
+}
+.top-suit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+}
+.bottom-suit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
+}
